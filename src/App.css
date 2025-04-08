@@ -1,12 +1,14 @@
-/*main*/
+/*main /hexadecimal color code*/
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
 
 :root {
     --primary: #1F262E;
     --secondary: #353831;
     --accent: #833437;
+    --classic: #823c3f;
     --neutral: #8F8093;
     --highlight: #67B9E9;
+    --Ocean : #064d9f;
     --light: #C3AF97;
     --pale: #B7D9F2;
 }
@@ -267,6 +269,47 @@ body {
 
 .city-description {
     margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.city-description[data-name="city-history"]:hover {
+    padding-left: 1.5rem;
+}
+
+.city-description[data-name="city-history"]::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.city-description[data-name="city-history"]:hover::before {
+    background-color: var(--highlight);
+}
+
+.city-description[data-name="city-culture"]:hover {
+    padding-left: 1.5rem;
+}
+
+.city-description[data-name="city-culture"]::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.city-description[data-name="city-culture"]:hover::before {
+    background-color: var(--accent);
 }
 
 .city-image-gallery {
@@ -287,6 +330,41 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     margin-top: 2rem;
+}
+
+[data-name="attraction-title"] {
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+[data-name="attraction-title"]::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--highlight);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+[data-name="attraction-title"]:hover {
+    color: var(--highlight);
+    transform: translateY(-2px);
+}
+
+[data-name="attraction-title"]:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+[data-name="attraction-title"]:active {
+    transform: translateY(1px);
 }
 
 .attraction-video {
@@ -354,7 +432,6 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* WhatsApp specific hover color */
 [data-name="social-whatsapp"]:hover {
     color: #25D366;
     background-color: rgba(37, 211, 102, 0.1);

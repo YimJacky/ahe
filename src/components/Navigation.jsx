@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
+import '../App.css';
+import { useState } from 'react';
 
 const Navigation = ({ CITIES_DATA }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,7 +32,7 @@ const Navigation = ({ CITIES_DATA }) => {
                 <div className="nav-container container">
                     <div className="nav-logo" data-name="nav-logo">
                         <img 
-                            src="/logo2.png" 
+                            src="./logo2.png" 
                             alt="World Tour Logo"
                             className="nav-logo-image"
                         />

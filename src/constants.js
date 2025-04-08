@@ -32,7 +32,8 @@ export const CITIES_DATA = { hongKong: {
         "https://images.unsplash.com/photo-1576788369575-4ab045b9287e",
         "/HongKong.jpg",
         "/HongKong2.jpg",
-        "https://images.unsplash.com/photo-1513326738677-b964603b136d",
+        "https://images.pexels.com/photos/3323694/pexels-photo-3323694.jpeg?auto=compress&cs=tinysrgb&w=600",
+        
     ]
 },
 paris: {
@@ -67,7 +68,7 @@ paris: {
     ],
     images: [
         "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
-        "/Paris-Image4.webp",
+        "https://images.pexels.com/photos/27702725/pexels-photo-27702725/free-photo-of-people-are-walking-on-the-steps-of-a-cathedral.jpeg?auto=compress&cs=tinysrgb&w=600",
         "https://images.unsplash.com/photo-1499856871958-5b9627545d1a",
         "https://images.unsplash.com/photo-1520939817895-060bdaf4fe1b",
     ]
@@ -124,7 +125,7 @@ Rome: {
             name: "Vatican City",
             description: "Smallest independent state in the world, home to the Pope",
             location: "https://maps.google.com/?q=Vatican+City",
-            videoUrl: "https://www.youtube.com/embed/AV2LpVplmgc"
+            videoUrl: "https://www.youtube.com/embed/x9TdGeBrTiU" 
         },
         {
             name: "Colosseum",

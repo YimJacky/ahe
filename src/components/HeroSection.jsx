@@ -41,7 +41,7 @@ const HeroSection = () => {
           </div>
         ))}
         <div className="hero-content" data-name="hero-content">
-          <h1 className="hero-title" data-name="hero-title">Explore World Heritage</h1>
+          <h1 className="hero-title" data-name="hero-title">City tours</h1>
           <a 
             href="/OTT_A4.pdf"
             className="hero-button" 

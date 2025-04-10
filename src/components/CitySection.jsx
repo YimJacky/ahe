@@ -1,5 +1,5 @@
 import React from 'react';
-import Attraction from './Attraction'; // Import the Attraction component
+import Attraction from './Attraction'; 
 
 const CitySection = ({ city }) => {
   try {

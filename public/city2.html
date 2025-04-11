@@ -5,10 +5,6 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/roughjs%404.5.2/bundled/rough.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link 
       rel="stylesheet" 
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -47,7 +43,10 @@
           margin: 0 0 2rem 0;
           text-align: center;
           letter-spacing: 0.05em;
-          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+          text-shadow: 0px 0px 10px #e48136,
+          0px 0px 20px #FFD700,
+          0px 0px 40px #e48136,
+          0px 0px 80px #e48136;
           width: 100%;
       }
 
@@ -81,7 +80,9 @@
     <div id="root">
       <h1>City 2: Paris</h1>
       <p>Explore the amazing city of Paris.</p>
-      <a href="http://localhost:3000/index.html/#paris" class="button">Click Home</a>
+      <a href="http://localhost:3000/index.html/#paris_page" class="button" target="_blank">Click Home</a>
+      <a href="https://www.louvre.fr/en" class="button">Louvre Online</a>
+      <a href="https://www.dreameratheart.org/parisian-culture-15-things-to-know-about-parisians/" class="button"target="_blank">Parisians</a>
       <a href="https://www.agoda.com/zh-tw/c/booking/?tag=EzTdia7oeJXHVUt6bOONOQje-pz--riiw4KlbrtBUUcxNzQ0MjczMzc0&aid=304142&ds=NpLBfwH5QqKZTq%2Fx" class="button" target="_blank">Booking</a>
     </div>
 

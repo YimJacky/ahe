@@ -5,25 +5,25 @@ export const CITIES_DATA = { hongKong: {
     attractions: [
         {
             name: "Ocean Park",
-            description: "World-class marine theme park combining entertainment with education",
+            description: "World-class marine theme park combining entertainment with education Visit the panda twins at the Giant Panda Adventure from 10am to 4:30pm and see An An and Ke Ke at the Hong Kong Jockey Club Sichuan Treasures from 10am to 7pm. Exhibits may change or close without prior notice. ",
             location: "https://maps.google.com/?q=Ocean+Park+Hong+Kong",
             videoUrl: "https://www.youtube.com/embed/-zni_Xz2TfY"
         },
         {
             name: "Wong Tai Sin Temple",
-            description: "Famous temple known for making every wish come true upon request",
+            description: "Famous temple known for making every wish come true upon request  Wong Tai Sin may be named after the god and the temple, but it is so much more than that. Amongst various other serene temples around the district, are traditional delicacies, hidden artisanal experiences, and local city-parks.",
             location: "https://maps.google.com/?q=Wong+Tai+Sin+Temple",
             videoUrl: "https://www.youtube.com/embed/LD1U3_CwJ4s"
         },
         {
             name: "Tian Tan Buddha",
-            description: "Giant Buddha statue and Po Lin Monastery on Lantau Island",
+            description: "Giant Buddha statue and Po Lin Monastery on Lantau Island Big Buddha has long been known for its monasteries and its refreshing highland climate, which is usually several degrees cooler than Hong Kong’s urban areas",
             location: "https://maps.google.com/?q=Tian+Tan+Buddha",
             videoUrl: "https://www.youtube.com/embed/8bLmNtEjPYg"
         },
         {
             name: "Victoria Peak",
-            description: "Highest point on Hong Kong Island offering spectacular city views",
+            description: "Highest point on Hong Kong Island offering spectacular city views The Peak, is a must-see Hong Kong destination — both day and night — offering iconic views of skyscraper-flanked Victoria Harbour, Kowloon peninsula and craggy mountain peaks.",
             location: "https://maps.google.com/?q=Victoria+Peak+Hong+Kong",
             videoUrl: "https://www.youtube.com/embed/Z6L9P208Zok"
         }
@@ -33,7 +33,7 @@ export const CITIES_DATA = { hongKong: {
         "/HongKong.jpg",
         "/HongKong2.jpg",
         "https://www.discoverhongkong.com/content/dam/dhk/intl/plan/guided-tour/explore-hong-kong-tour/happy-go-lucky-hong-kong-tour/P1091644-01_640x480.jpg",
-        "https://www.discoverhongkong.com/content/dam/dhk/intl/explore/arts-entertainment/dont-miss-these-hong-kong-arts-and-culture-activities/dont-miss-these-hong-kong-arts-and-culture-activities-i.jpg",
+        "https://www.thepeak.com.hk/sites/peak/files/2024-11/morning.jpg",
         "https://media.gettyimages.com/id/1297895011/zh/%E7%85%A7%E7%89%87/%E5%A4%A9%E8%AD%9A%E4%BD%9B%E5%8F%88%E7%A8%B1%E5%A4%A7%E4%BD%9B%E4%B8%AD%E5%9C%8B%E9%A6%99%E6%B8%AF.jpg?s=612x612&w=0&k=20&c=Ls9FEPhH0OKiJC1z1pi7fWzW2EfbvogavunHBolQE6Y=",
         "https://media.gettyimages.com/id/1976896568/zh/%E7%85%A7%E7%89%87/inter-miamis-argentine-forward-lionel-messi-sits-on-the-bench-during-the-friendly-football-match.jpg?s=612x612&w=0&k=20&c=bkHKmqxxUetXbSOSrBBeOtwRRu_tRApbFB-IOHcfMIA=",
         "https://images.pexels.com/photos/3323694/pexels-photo-3323694.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -42,8 +42,8 @@ export const CITIES_DATA = { hongKong: {
 },
 paris: {
     name: "Paris",
-    history: "Paris, the City of Light, has been a global center of art, fashion, gastronomy, and culture for centuries. Its architectural beauty and historical significance are unmatched.",
-    culture: "Famous for its café culture, fashion houses, art museums, and culinary excellence, Paris embodies sophisticated European lifestyle.",
+    history: "Paris has been an important center of politics, commerce, art, music, revolution, and war throughout the world for hundreds and hundreds of years. Paris’ ancient walls and streets hold infinite stories of love, drama, and the human experience. If you’re willing to just pay attention, Paris might just share some of its secrets with you - especially with the help of a historic tour around its different neighborhoods.",
+    culture: "Famous for its café culture, fashion houses and culinary excellence, Paris embodies sophisticated European lifestyle.Museums, architecture, history or music, even the town design has stories to tell and is surrounded by myths and anecdotes.",
     attractions: [
         {
             name: "Eiffel Tower",
@@ -59,24 +59,25 @@ paris: {
         },
         {
             name: "The Louvre",
-            description: "World's largest art museum and home to the Mona Lisa",
+            description: "Where better than the Louvre to get a sense of these great artworks? The palace is home to some of the world’s most iconic pieces – paintings, sculptures, architectural elements and art objects by famous or anonymous artists of many different origins and eras. And no two masterpieces are alike!",
             location: "https://maps.google.com/?q=The+Louvre",
             videoUrl: "https://www.youtube.com/embed/bbn0JzthJDk"
         },
         {
             name: "Montmartre",
-            description: "Historic art district with stunning Sacré-Cœur Basilica",
+            description: "The hill gained religious significance after Saint Denis' martyrdom. King Louis VI built the church of Saint-Pierre and the Royal Abbey in 1134. In the 15th century, Montmartre became a village surrounded by vineyards. During the 1590 Siege of Paris, it served as a strategic artillery position!  Loving it!",
             location: "https://maps.google.com/?q=Montmartre+Paris",
             videoUrl: "https://www.youtube.com/embed/Q7NDWxaCrgA"
         }
     ],
     images: [
         "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+        "https://www.dreameratheart.org/wp-content/uploads/2024/11/Square-Louis-Jouvet-Pegasus-500x500.jpg",
         "https://images.pexels.com/photos/27702725/pexels-photo-27702725/free-photo-of-people-are-walking-on-the-steps-of-a-cathedral.jpeg?auto=compress&cs=tinysrgb&w=600",
         "https://images.unsplash.com/photo-1663274310693-eab1409e53a8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI0fHxUaGUlMjBMb3V2cmV8ZW58MHx8MHx8fDA%3D",
         "https://media.gettyimages.com/id/459228753/zh/%E7%85%A7%E7%89%87/le-moulin-rouge-at-the-dusk.jpg?s=612x612&w=0&k=20&c=cXa4BesBOCyjXI3vEtlbvtkNuCWjC7qB-qRm0ACz2-o=",
         "https://images.unsplash.com/photo-1499856871958-5b9627545d1a",
-        "https://images.unsplash.com/photo-1520939817895-060bdaf4fe1b",
+        
     ]
 },
 tokyo: {
@@ -120,8 +121,8 @@ tokyo: {
 },
 Rome: {
     name: "Rome",
-    history: "Italy, particularly focusing on Rome, has been at the heart of history and culture for over two millennia. The country's rich heritage spans from ancient Roman times through the Renaissance.",
-    culture: "Famous for its art, architecture, fashion, design, and culinary traditions, Italy represents the epitome of Mediterranean culture.",
+    history: "From the conquest of the Mediterranean beginning in the third century BC to the destruction of the Roman Empire at the hands of barbarian invaders some seven centuries later, we discover the most critical episodes in Roman history: the spectacular collapse of the 'free' republic, the birth of the age of the 'Caesars', the violent suppression of the strongest rebellion against Roman power, and the bloody civil war that launched Christianity as a world religion.   At the heart of this account are the dynamic, complex but flawed characters of some of the most powerful rulers in history: men such as Pompey the Great, Julius Caesar, Augustus, Nero and Constantine.",
+    culture: "Although the Romans were heavily influenced by ancient Greece, they were able to make improvements to certain borrowed Greek designs and inventions. For example, they continued the use of columns, but the form became more decorative and less structural in Roman buildings. Ancient Romans created curved roofs and large-scale arches, which were able to support more weight than the post-and-beam construction the Greeks used. These arches served as the foundation for the massive bridges and aqueducts the Romans created. The game-loving ancients also built large amphitheaters, including the Colosseum. The sports stadiums we see today, with their oval shapes and tiered seating, derive from the basic idea the Romans developed.",
     attractions: [
         {
             name: "Pantheon",

@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+    
+    /* Dropdown styling */
+    body {
+        background-color:#1F262E !important; 
+        }
+    
+    #city-selector {
+        background-color: #353831; 
+        color: #C3AF97; 
+        margin-bottom: 2rem; 
+        margin-left:5rem;
+        border: 0.3rem solid #833437; 
+        padding: 10px; 
+        border-radius: 0.5rem; 
+        font-size: 16px;
+      }
+      
+      button {
+        background-color: #353831; /* Background color */
+        color: #C3AF97; /* Font color */
+        margin-left:5rem;
+        margin-bottom: 3px; /* Margin bottom */
+        border: 1px solid #833437; 
+        padding: 10px 20px; 
+        border-radius: 5px; 
+        font-size: 16px; 
+        cursor: pointer; 
+      }
+      
+      button:hover {
+        background-color: #833437; 
+        color: #FFFFFF; 
+      }

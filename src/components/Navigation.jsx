@@ -32,8 +32,8 @@ const Navigation = ({ CITIES_DATA }) => {
                 <div className="nav-container container">
                     <div className="nav-logo" data-name="nav-logo">
                         <img 
-                            src="./logo2.png" 
-                            alt="World Tour Logo"
+                            src="./assets/logo2.png" 
+                            alt="CityTour Logo"
                             className="nav-logo-image"
                         />
                         Cities+ Tours

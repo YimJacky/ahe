@@ -5,16 +5,7 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/roughjs%404.5.2/bundled/rough.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link 
-      rel="stylesheet" 
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-      crossOrigin="anonymous"
-      referrerPolicy="no-referrer"/> 
+
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/.logo2.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <style>
@@ -43,10 +34,13 @@
       #root h1 {
           color: #FFD700;
           font-size: 3.5rem;
+          text-shadow: 0px 0px 10px #FFD700,
+          0px 0px 20px #FFD700,
+          0px 0px 40px #FFD700,
+          0px 0px 80px #FFD700;
           margin: 0 0 2rem 0;
           text-align: center;
           letter-spacing: 0.05em;
-          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
           width: 100%;
       }
 
@@ -79,7 +73,7 @@
   <div id="root">
       <h1>City 1: Hong Kong</h1>
       <p>Explore the amazing city of Hong Kong.</p>
-      <a href="http://localhost:3000/index.html/#hong_kong" class="button">Click Home</a>
+      <a href="http://localhost:3000/index.html/#hong_kong page" class="button" target="_blank">Click Home</a>
       <a href="https://www.discoverhongkong.com/eng/plan/guided-tour.html?" class="button" target="_blank">Local Guide</a>
   </div>
 </body>

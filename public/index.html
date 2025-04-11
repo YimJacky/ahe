@@ -16,11 +16,13 @@
     crossOrigin="anonymous"
     referrerPolicy="no-referrer"/> 
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="stylesheet" href="index.css">
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -35,6 +37,26 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!-- Dropdown to select a city -->
+  <select id="city-selector">
+    <option value="http://localhost:3000/index.html">Page1 Home</option>
+    <option value="http://127.0.0.1:5500/public/city1.html">Page2 City1 </option>
+    <option value="http://127.0.0.1:5500/public/city2.html">Page3 City2</option>
+    <option value="http://127.0.0.1:5500/public/city3.html">Page4 City3</option>
+    <option value="http://127.0.0.1:5500/public/city4.html">Page5 City4</option>
+  </select>
+
+    <button onclick="goToCity()">For erb count FIVE html</button>
+
+<script>
+  function goToCity() {
+    const selector = document.getElementById('city-selector');
+    const selectedURL = selector.value;
+
+    // Navigate without showing the URL in the status bar
+    window.location.href = selectedURL;
+  }
+</script>
      <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
